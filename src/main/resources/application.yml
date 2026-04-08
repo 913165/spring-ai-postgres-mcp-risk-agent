@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: pms_springai_postgres_mcp
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    mode: HTML
+    encoding: UTF-8
+    cache: false

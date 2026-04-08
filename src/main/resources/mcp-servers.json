@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "postgres-risk-server": {
+      "command": "docker",
+      "args": [
+        "exec",
+        "-i",
+        "postgres-mcp-server",
+        "postgres-mcp"
+      ],
+      "env": {
+        "DATABASE_URI": "postgresql://riskuser:riskpass@host.docker.internal:5432/riskdb"
+      }
+    }
+  }
+}
+
